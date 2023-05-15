@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu12bActivity">
+    <ImageView
+        android:id="@+id/menu12"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/menu12" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="480dp">
+        <LinearLayout
+            android:id="@+id/extra_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="55dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/chewy"
+                android:layout_gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="INDEKS MASA TUBUH KAMU"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/IMT"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/chewy"
+                android:layout_gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/black"
+                android:textSize="24dp" />
+            <TextView
+                android:id="@+id/JKtext"
+                android:alpha="0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/chewy"
+                android:layout_gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="Jenis Kelamin :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/black"
+                android:textSize="24dp" />
+            <ImageView
+                android:id="@+id/bgmenu1"
+                android:alpha="0"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/bintang" />
+            <RadioGroup
+                android:id="@+id/gender"
+                android:alpha="0"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:alpha="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Laki - Laki" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:alpha="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perempuan" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Umurtext"
+                android:alpha="0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/chewy"
+                android:layout_gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="Umur :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/black"
+                android:textSize="24dp" />
+            <ImageView
+                android:id="@+id/bgmenu2"
+                android:alpha="0"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/bintang" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="20dp"
+                    android:alpha="0"
+                    android:hint="Isikan Umur">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        app:boxBackgroundColor="@android:color/transparent"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/age_tahun"
+                        android:alpha="0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/tahuntext"
+
+                    android:alpha="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="15dp"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="@font/chewy"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="Tahun"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="20dp"
+                    android:alpha="0"
+                    android:id="@+id/inputnya"
+                    android:hint="Isikan Umur">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        app:boxBackgroundColor="@android:color/transparent"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/age_bulan"
+                        android:alpha="0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/textbulan"
+
+                    android:alpha="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="15dp"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="@font/chewy"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="Bulan"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+            <Button
+
+                android:alpha="0"
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/limelight"
+                android:text="Cek Gizi"
+                android:textColorLink="#FFFFFF" />
+            <TextView
+                android:id="@+id/gizitext"
+                android:alpha="0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-40dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/chewy"
+                android:layout_gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="KLASIFIKASI GIZI ANDA"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:alpha="0"
+                android:id="@+id/gizi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/chewy"
+                android:layout_gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/black"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="start"
+            android:text="back"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </ImageButton>
+
+        <ImageButton
+            android:alpha="0"
+            android:id="@+id/next"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/next"
+            android:gravity="end"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </ImageButton>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

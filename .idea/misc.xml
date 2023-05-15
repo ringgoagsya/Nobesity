@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_about.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu1.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu10.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu11.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu12.xml" value="0.26573426573426573" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu12a.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu12b.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu13.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu2.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu2a.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu2b.xml" value="0.33" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu2c.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu3.xml" value="0.33" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu4.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu5.xml" value="0.2862523540489642" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu6.xml" value="0.20483870967741935" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu7.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu8.xml" value="0.14497041420118342" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu8a.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu8b.xml" value="0.33" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu9.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu_list.xml" value="0.24374420759962928" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_menu_list2.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_quiz1.xml" value="0.6586206896551724" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_quiz10.xml" value="0.2504118616144975" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_quiz2.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_quiz3.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_quiz4.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_quiz5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_quiz6.xml" value="0.33" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_quiz7.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_quiz8.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_quiz9.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/gizi/app/src/main/res/layout/activity_reference.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

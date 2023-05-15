@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu8bActivity">
+    <ImageView
+        android:id="@+id/menu8"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/menu8" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="-40dp"
+        android:layout_height="500dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/bungee"
+                android:gravity="center|center_vertical"
+                android:padding="8dp"
+                android:text="10 Pesan gizi seimbang"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/teal_200"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/bgmenu1"
+                android:layout_width="280dp"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="-30dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/pedoman" />
+
+            <TextView
+                android:layout_marginTop="-20dp"
+                android:id="@+id/fonti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/chewy"
+                android:padding="8dp"
+                android:text=" \u2022 Biasakan mengonsumsi aneka ragam makanan pokok
+\n \u2022 Batasi konsumsi panganan manis, asin, dan berlemak
+\n \u2022 Lakukan aktivitas fisik yang cukup dan pertahankan berat badan ideal
+\n \u2022 Biasakan mengonsumsi lauk pauk yang mengandung protein tinggi
+\n \u2022 Cuci tangan pakai sabun dengan air mengalir
+\n \u2022 Biasakan sarapan pagi
+\n \u2022 Biasakan minum air putih yang cukup dan aman
+\n \u2022 Banyak makan buah dan sayur
+\n \u2022 Biasakan membaca label pada kemasan pangan
+\n \u2022 Syukuri dan nikmati aneka ragam makana"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                tools:ignore="RtlCompat" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="start"
+            android:text="back"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </ImageButton>
+
+        <ImageButton
+            android:alpha="0"
+            android:id="@+id/next"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/next"
+            android:gravity="end"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </ImageButton>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

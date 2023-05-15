@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu3Activity">
+    <ImageView
+        android:id="@+id/menu4"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/menu4" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="-30dp"
+        android:layout_height="450dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bgmenu1"
+
+                android:layout_marginTop="-40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="550dp"
+                app:srcCompat="@drawable/menu4content" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="start"
+            android:text="back"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </ImageButton>
+
+        <ImageButton
+            android:alpha="0"
+            android:id="@+id/next"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/next"
+            android:gravity="end"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </ImageButton>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

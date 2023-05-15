@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReferenceActivity">
+    <ImageView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/reference" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="-40dp"
+        android:layout_height="500dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/chewy"
+                android:gravity=""
+                android:padding="8dp"
+                android:text="\u2022 Anies. Penyakit degeneratif : buku ajar kedokteran dan kesehatan. Hidayah N, editor. Yogyakarta: Ar-Ruzz Media; 2018.
+\n \u2022 Bustan. Menajemen pengendalian penyakit tidak menular. Jakarta: Rineka Cipta; 2015.
+\n \u2022 Bustan MN. Manajemen Pengendalian Penyakit Tidak Menular. Rineka Cipta. 2015.
+\n \u2022 Kansra AR, Lakkunarajah S, Jay MS. Childhood and Adolescent Obesity: A Review. Vol. 8, Frontiers in Pediatrics. 2021.
+\n \u2022 Depkes RI. Pedoman Pencegahan Dan Penanggulangan Kegemukan Dan Obesitas pada Anak Sekolah. Kementerian Kesehatan Republik Indonesia. 2012. 48 p.
+\n \u2022 Rahayu DT. Obesitas Dengan Harga Diri Pada Remaja Putri Kelas X SMK YP 17 Pare Kediri. 2019.
+\n \u2022 Ariani AP. Ilmu Gizi. Yogyakarta: Nuha Medika; 2017.
+\n \u2022 Telisa I, Hartati Y, Haripamilu AD. Faktor Risiko Terjadinya Obesitas Pada Remaja SMA. Faletehan Heal J. 2020;7(03):124–31.
+\n \u2022 Kemendikbud. Remaja Sehat itu Keren. Kementerian Pendidikan dan Kebudayaan RI. 2019.
+\n \u2022 Hasdianah, Siyoto S, Peristyowati Y. Gizi, pemantapan gizi, diet dan obesitas. Nuha Medika; 2014.
+\n \u2022 Rachmi CN, Wulandari E, Kurniawan H, Wiradnyani LAA, Ridwan R, Akib TC. Buku Panduan Siswa AKSI BERGIZI. Kemenkes RI. 2019;1–188.
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/bgmenu1"
+                android:layout_width="280dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="-100dp"
+                android:layout_gravity="end|bottom"
+                app:srcCompat="@drawable/bawah" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="start"
+            android:text="back"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/next"
+            android:gravity="end"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </ImageButton>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

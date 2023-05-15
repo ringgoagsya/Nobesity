@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dicoding.gizi">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gizi"
+        tools:targetApi="31">
+        <activity
+            android:name=".Menu13Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ReferenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.Quiz10Activity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.Quiz9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.Quiz8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.Quiz7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.Quiz6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.Quiz5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.Quiz4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.Quiz3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.Quiz2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.Quiz1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu12bActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu8bActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu8aActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu12Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu11Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu10Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu2cActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu2bActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu2aActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuListActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MenuListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

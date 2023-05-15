@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu8aActivity">
+    <ImageView
+        android:id="@+id/menu8"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/menu8" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="-40dp"
+        android:layout_height="500dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/bungee"
+                android:gravity="center|center_vertical"
+                android:padding="8dp"
+                android:text="4 pilar gizi seimbang"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/teal_200"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/bgmenu1"
+                android:layout_width="280dp"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/prinsip" />
+
+            <TextView
+                android:id="@+id/fonti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/chewy"
+                android:padding="8dp"
+                android:text="\u2022 Pentingnya pola hidup aktif dan berolahraga \n \u2022 Menjaga berat badan ideal
+            \n \u2022 Mengonsumsi makanan dengan beraneka ragam
+            \n \u2022 Menerapkan pola hidup bersih dan sehat"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="RtlCompat" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="start"
+            android:text="back"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/next"
+            android:gravity="end"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </ImageButton>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

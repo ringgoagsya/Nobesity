@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar2"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="120dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+    <ImageView
+        android:id="@+id/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/menu1" />
+    <ImageView
+        android:id="@+id/menu2"
+        android:layout_marginTop="-30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/menu2" />
+    <ImageView
+        android:id="@+id/menu3"
+        android:layout_marginTop="-30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/menu3" />
+    <ImageView
+        android:id="@+id/menu4"
+        android:layout_marginTop="-30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/menu4" />
+    <ImageView
+        android:id="@+id/menu5"
+        android:layout_marginTop="-30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/menu5" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/next"
+            android:gravity="end"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </ImageButton>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
